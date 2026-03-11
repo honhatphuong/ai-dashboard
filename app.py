@@ -178,4 +178,4 @@ with gr.Blocks(theme=custom_theme, title="程曦資訊 | AI 轉型加速器") as
 # ==========================================
 if __name__ == "__main__":
     # 💡 修改這裡：將 theme 從 launch 中拿掉，避免 TypeError
-    demo.launch(debug=True)
+    demo.launch(server_name="0.0.0.0")
